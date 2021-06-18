@@ -2,15 +2,6 @@ variable "org_name" {}
 variable "api_token" {}
 variable "base_url" {}
 
-#provider information
-terraform {
-    required_providers {
-        okta = {
-            source = "okta/okta"
-            version = "~>3.10"
-        }
-    }
-}
 
 #configure the okta provider
 
