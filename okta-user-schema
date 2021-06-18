@@ -1,3 +1,0 @@
-mkdir okta-user-schema
-cd okta-user-schema
-terraform init
