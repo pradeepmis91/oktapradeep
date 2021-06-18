@@ -6,6 +6,7 @@ variable "base_url" {}
 #configure the okta provider
 
 provider "okta" {
+    version   = "~> 3.1"
     org_name = var.org_name
     base_url = var.base_url
     api_token = var.api_token
